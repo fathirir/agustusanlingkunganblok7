@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peringatan HUT RI - Perumnas Blok 7 RW 12</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#D32F2F',
+                        brandGold: '#FFD700',
+                        brandDarkGold: '#B8860B',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient {
+            background: linear-gradient(135deg, #FFE259 0%, #FFA751 100%);
+        }
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .red-gradient {
+            background: linear-gradient(135deg, #E53935 0%, #E3525B 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Header / Hero Section -->
+    <header class="relative red-gradient text-white overflow-hidden shadow-lg">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="container mx-auto px-6 py-16 relative z-10 text-center">
+            <span class="inline-block bg-yellow-400 text-red-900 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 shadow-md">
+                Perumnas Blok 7 RW 12 • Kel. Sukamelang
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-2">
+                SEMARAK AGUSTUSAN <span class="text-yellow-300">2026</span>
+            </h1>
+            <div class="my-4">
+                <p class="text-xl md:text-2xl font-bold tracking-wide text-gold-gradient bg-black/40 inline-block px-6 py-2 rounded-xl backdrop-blur-sm border border-yellow-500/30">
+                    "MINDSET EMAS, VIBES MERDEKA"
+                </p>
+            </div>
+            <p class="max-w-2xl mx-auto text-sm md:text-base text-gray-100 mt-2">
+                09 Agustus 2026 – 17 Agustus 2026 | Area Lingkungan Perumnas Blok 7
+            </p>
+
+            <!-- Countdown Timer -->
+            <div class="mt-8 max-w-xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl">
+                <h3 class="text-sm font-semibold text-yellow-300 uppercase tracking-wider mb-4">Menuju Acara Perlombaan 17 Agustus</h3>
+                <div class="grid grid-cols-4 gap-3 text-center" id="countdown">
+                    <div class="bg-black/30 rounded-lg p-3">
+                        <span id="days" class="block text-2xl md:text-4xl font-extrabold text-yellow-400">00</span>
+                        <span class="text-xs text-gray-200">Hari</span>
+                    </div>
+                    <div class="bg-black/30 rounded-lg p-3">
+                        <span id="hours" class="block text-2xl md:text-4xl font-extrabold text-yellow-400">00</span>
+                        <span class="text-xs text-gray-200">Jam</span>
+                    </div>
+                    <div class="bg-black/30 rounded-lg p-3">
+                        <span id="minutes" class="block text-2xl md:text-4xl font-extrabold text-yellow-400">00</span>
+                        <span class="text-xs text-gray-200">Menit</span>
+                    </div>
+                    <div class="bg-black/30 rounded-lg p-3">
+                        <span id="seconds" class="block text-2xl md:text-4xl font-extrabold text-yellow-400">00</span>
+                        <span class="text-xs text-gray-200">Detik</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filament Tema & Makna -->
+    <section class="py-12 bg-white shadow-sm">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Maksud & Makna Tema</h2>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-2 rounded-full"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 rounded-2xl bg-amber-50 border border-amber-200 hover:shadow-md transition">
+                    <div class="w-12 h-12 gold-gradient rounded-xl flex items-center justify-center text-red-900 text-xl font-bold mb-4 shadow">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Mindset Emas</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Membentuk pola pikir masyarakat dan generasi muda yang progresif, berdaya saing, serta berkarakter kuat dalam menyongsong visi Indonesia Emas.
+                    </p>
+                </div>
+                <div class="p-6 rounded-2xl bg-red-50 border border-red-200 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-4 shadow">
+                        <i class="fa-solid fa-flag"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Vibes Merdeka</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Menghadirkan atmosfer perayaan yang penuh sukacita, kebebasan berekspresi positif, kebersamaan, dan energi patriotisme yang menyenangkan bagi seluruh warga.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jadwal Perlombaan Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Jadwal Perlombaan</h2>
+                <p class="text-gray-500 text-sm mt-1">Pilih kategori untuk memfilter jadwal</p>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-2 rounded-full"></div>
+
+                <!-- Filter Buttons -->
+                <div class="flex flex-wrap justify-center gap-2 mt-6" id="filter-container">
+                    <button onclick="filterJadwal('all')" class="filter-btn active px-4 py-2 text-sm font-semibold rounded-full bg-red-600 text-white shadow">Semua Hari</button>
+                    <button onclick="filterJadwal('Anak - Anak')" class="filter-btn px-4 py-2 text-sm font-semibold rounded-full bg-white text-gray-700 hover:bg-gray-200 transition">Kategori Anak</button>
+                    <button onclick="filterJadwal('Ibu-Ibu')" class="filter-btn px-4 py-2 text-sm font-semibold rounded-full bg-white text-gray-700 hover:bg-gray-200 transition">Kategori Ibu-Ibu</button>
+                    <button onclick="filterJadwal('Bapak-Bapak')" class="filter-btn px-4 py-2 text-sm font-semibold rounded-full bg-white text-gray-700 hover:bg-gray-200 transition">Kategori Bapak-Bapak</button>
+                </div>
+            </div>
+
+            <!-- Tabel Jadwal (Responsive) -->
+            <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-200">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-red-700 text-white text-xs md:text-sm uppercase tracking-wider">
+                                <th class="p-4">Hari / Tanggal</th>
+                                <th class="p-4">Waktu</th>
+                                <th class="p-4">Kegiatan</th>
+                                <th class="p-4">Kategori</th>
+                                <th class="p-4">Lokasi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="jadwal-body" class="divide-y divide-gray-200 text-sm">
+                            <!-- Populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penanggung Jawab Lomba Grid -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Penanggung Jawab Lomba</h2>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-2 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="pj-container">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Susunan Panitia Section -->
+    <section class="py-12 bg-gray-900 text-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold text-yellow-400">Susunan Kepanitiaan</h2>
+                <p class="text-gray-400 text-sm mt-1">Panitia Pelaksana Agustusan Perumnas Blok 7 RW 12</p>
+                <div class="w-16 h-1 bg-yellow-400 mx-auto mt-2 rounded-full"></div>
+            </div>
+
+            <!-- Inti Panitia -->
+            <div class="grid md:grid-cols-3 gap-4 mb-8">
+                <div class="bg-gray-800 p-5 rounded-xl text-center border border-yellow-500/30">
+                    <span class="text-xs uppercase tracking-widest text-yellow-400 font-semibold">Ketua Pelaksana</span>
+                    <h4 class="text-lg font-bold mt-1 text-white">Muhammad Fathir Irawan</h4>
+                </div>
+                <div class="bg-gray-800 p-5 rounded-xl text-center border border-gray-700">
+                    <span class="text-xs uppercase tracking-widest text-gray-400 font-semibold">Sekretaris</span>
+                    <h4 class="text-lg font-bold mt-1 text-white">Radinka Artha Nur Syifa</h4>
+                    <li>Muhammad Azka Najhan</li>
+                </div>
+                <div class="bg-gray-800 p-5 rounded-xl text-center border border-gray-700">
+                    <span class="text-xs uppercase tracking-widest text-gray-400 font-semibold">Bendahara</span>
+                    <h4 class="text-lg font-bold mt-1 text-white">Riska Fariza Dhewi</h4>
+                    <li>Naren</li>
+                </div>
+            </div>
+
+            <!-- Seksi-Seksi -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Seksi Acara -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-calendar-check mr-2"></i>Seksi Acara</h5>
+                    <p class="text-sm text-gray-300"> Muhammad Pikri Paturrohman</p>
+                    <li>Asrul Sani Handayana Nazmi</li>
+                </div>
+                <!-- Seksi Humas -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-bullhorn mr-2"></i>Seksi Humas</h5>
+                    <p class="text-sm text-gray-300">Hegar Abde</p>
+                    <li>Royan</li>
+                </div>
+                <!-- Seksi Perlengkapan -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-screwdriver-wrench mr-2"></i>Seksi Perlengkapan</h5>
+                    <p class="text-sm text-gray-300">Floren Saputra Pasaribu</p>
+                    <li>Megan</li>
+                    <li>Muhammad Demian Satria Andriana</li>
+                </div>
+                <!-- Seksi Keamanan -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-shield-halved mr-2"></i>Seksi Keamanan</h5>
+                    <ul class="text-sm text-gray-300 space-y-1">
+                        <li> Moch Zakwan</li>
+                        <li>Willy Adiya Pratama</li>
+                        
+                    </ul>
+                </div>
+                <!-- Seksi Dokumentasi -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-camera mr-2"></i>Seksi Dokumentasi</h5>
+                    <ul class="text-sm text-gray-300 space-y-1">
+                        <li>Muhammad Fairuz Nadhir</li>
+                        <li>Muhammad Arief Riyanto</li>
+                        <li>Rian Irwansyah</li>
+                    </ul>
+                </div>
+                <!-- Anggota Umum / Lapangan -->
+                <div class="bg-gray-800/60 p-5 rounded-xl border border-gray-700">
+                    <h5 class="text-sm font-bold text-red-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-users mr-2"></i>Tim Pendukung</h5>
+                    <ul class="text-sm text-gray-300 space-y-1">
+                        <li>Warga Lingkungan Perumnas Blok 7</li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-500 py-6 text-center text-xs">
+        <div class="container mx-auto px-6">
+            <p>© 2026 Panitia Agustusan Perumnas Blok 7 RW 12. All Rights Reserved.</p>
+            <p class="mt-1 text-gray-600">Dirancang dengan Semangat Merdeka & Mindset Emas</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Data & Logic -->
+    <script>
+        // Data Jadwal Perlombaan
+        const jadwalData = [
+            { hari: "Minggu, 09 Ags 2026", waktu: "08.00 – 09.30 WIB", lomba: "Makan Kerupuk", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Minggu, 09 Ags 2026", waktu: "09.30 - 11.00 WIB", lomba: "Masukkan Paku Ke Botol", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Minggu, 09 Ags 2026", waktu: "11.00 - 15.20 WIB", lomba: "ISOMA", kategori: "Seluruh Peserta Dan Panitia", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Minggu, 09 Ags 2026", waktu: "15.20 – Selesai", lomba: "Sambung Kata", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Senin, 10 Ags 2026", waktu: "15.30 – 17.30 WIB", lomba: "Pukul Air", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Selasa, 11 Ags 2026", waktu: "15.30 – 17.30 WIB", lomba: "Biskuit Challenge", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Rabu, 12 Ags 2026", waktu: "15.30 – 17.30 WIB", lomba: "Menara Cup", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Kamis, 13 Ags 2026", waktu: "15.30 – 17.30 WIB", lomba: "Estafet Sedotan Terigu", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Jumat, 14 Ags 2026", waktu: "15.30 – 17.30 WIB", lomba: "Estafet Terigu", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Sabtu, 15 Ags 2026", waktu: "08.00 - 10.00 WIB", lomba: "Klereng", kategori: "Anak - Anak", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Sabtu, 15 Ags 2026", waktu: "10.00 - 11.30 WIB", lomba: "Klereng", kategori: "Ibu-Ibu", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Sabtu, 15 Ags 2026", waktu: "11.30 - 15.20 WIB", lomba: "ISOMA", kategori: "Seluruh Peserta Dan Panitia", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Sabtu, 15 Ags 2026", waktu: "15.20 - Selesai", lomba: "Estafet Air", kategori: "Ibu-Ibu", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Minggu, 16 Ags 2026", waktu: "07.00 - 12.00 WIB", lomba: "Gerak Jalan Santai", kategori: "Seluruh Peserta", lokasi: "Lingkungan Perumnas Blok 7" },
+            { hari: "Minggu, 16 Ags 2026", waktu: "12.00 - 13.00 WIB", lomba: "ISOMA", kategori: "Seluruh Peserta Dan Panitia", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Minggu, 16 Ags 2026", waktu: "08.00 - 12.00 WIB", lomba: "Futsal", kategori: "Anak - Anak", lokasi: "Lapang Blok 7" },
+            { hari: "Minggu, 16 Ags 2026", waktu: "12.00 - 15.00 WIB", lomba: "ISOMA", kategori: "Seluruh Peserta Dan Panitia", lokasi: "Lapang Tengah Blok 7" },
+            { hari: "Senin, 17 Ags 2026", waktu: "15.00 - 17.00 WIB", lomba: "Futsal", kategori: "Bapak-Bapak", lokasi: "Lapang Blok 7" }
+        ];
+
+        // Data Penanggung Jawab Lomba
+        const pjData = [
+            { lomba: "Pukul Air", pj: "Moch Zakwan" },
+            { lomba: "Makan Kerupuk", pj: "Willy Adiya Pratama" },
+            { lomba: "Masukan Paku Ke Botol", pj: "Muhammad Fairuz Nadhir" },
+            { lomba: "Sambung Kata", pj: "Naren" },
+            { lomba: "Estafet Sedotan Terigu", pj: "Megan" },
+            { lomba: "Biskuit Di Muka", pj: "Hegar" },
+            { lomba: "Menara Cup", pj: "Pikri" },
+            { lomba: "Estafet Terigu", pj: "Floren" },
+            { lomba: "Estafet Air", pj: "Kakang" },
+            { lomba: "Klereng", pj: "Demian" },
+            { lomba: "Gerak Jalan", pj: "Seluruh Panitia" },
+            { lomba: "Futsal Anak & Bapak", pj: "Seluruh Panitia" },
+            { lomba: "Masukan Pisang Ke Mulut (Ibu)", pj: "Seluruh Panitia" }
+        ];
+
+        // Render Jadwal Function
+        function renderJadwal(filter = 'all') {
+            const tbody = document.getElementById('jadwal-body');
+            tbody.innerHTML = '';
+
+            const filteredData = filter === 'all' 
+                ? jadwalData 
+                : jadwalData.filter(item => item.kategori.toLowerCase().includes(filter.toLowerCase()));
+
+            filteredData.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-gray-50 transition border-b border-gray-100";
+                
+                let badgeColor = "bg-blue-100 text-blue-800";
+                if(item.kategori.includes("Ibu")) badgeColor = "bg-pink-100 text-pink-800";
+                if(item.kategori.includes("Bapak")) badgeColor = "bg-emerald-100 text-emerald-800";
+                if(item.kategori.includes("Seluruh")) badgeColor = "bg-purple-100 text-purple-800";
+
+                tr.innerHTML = `
+                    <td class="p-4 font-semibold text-gray-800">${item.hari}</td>
+                    <td class="p-4 text-gray-600">${item.waktu}</td>
+                    <td class="p-4 font-bold text-red-700">${item.lomba}</td>
+                    <td class="p-4"><span class="px-2.5 py-1 rounded-full text-xs font-semibold ${badgeColor}">${item.kategori}</span></td>
+                    <td class="p-4 text-gray-500">${item.lokasi}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Filter Function
+        function filterJadwal(kategori) {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('bg-red-600', 'text-white', 'active');
+                btn.classList.add('bg-white', 'text-gray-700');
+            });
+            event.target.classList.remove('bg-white', 'text-gray-700');
+            event.target.classList.add('bg-red-600', 'text-white', 'active');
+
+            renderJadwal(kategori);
+        }
+
+        // Render PJ Function
+        function renderPJ() {
+            const container = document.getElementById('pj-container');
+            container.innerHTML = '';
+
+            pjData.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "bg-gray-50 border border-gray-200 p-4 rounded-xl shadow-sm hover:shadow-md transition text-center";
+                card.innerHTML = `
+                    <p class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Lomba</p>
+                    <h4 class="font-bold text-gray-800 text-sm mb-2">${item.lomba}</h4>
+                    <span class="inline-block bg-amber-100 text-amber-900 text-xs font-semibold px-3 py-1 rounded-full border border-amber-300">
+                        PJ: ${item.pj}
+                    </span>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Countdown Timer Logic
+        function startCountdown() {
+            const targetDate = new Date("August 17, 2026 00:00:00").getTime();
+
+            setInterval(() => {
+                const now = new Date().getTime();
+                const difference = targetDate - now;
+
+                if (difference > 0) {
+                    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                    document.getElementById("days").innerText = days < 10 ? '0' + days : days;
+                    document.getElementById("hours").innerText = hours < 10 ? '0' + hours : hours;
+                    document.getElementById("minutes").innerText = minutes < 10 ? '0' + minutes : minutes;
+                    document.getElementById("seconds").innerText = seconds < 10 ? '0' + seconds : seconds;
+                }
+            }, 1000);
+        }
+
+        // Initialize App
+        document.addEventListener('DOMContentLoaded', () => {
+            renderJadwal();
+            renderPJ();
+            startCountdown();
+        });
+    </script>
+</body>
+</html>

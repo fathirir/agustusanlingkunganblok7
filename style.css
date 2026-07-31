@@ -1,0 +1,24 @@
+/* style.css - Custom Styling untuk Website Agustusan */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Gradient Emas untuk Akses Tema "Mindset Emas" */
+.gold-gradient {
+    background: linear-gradient(135deg, #FFE259 0%, #FFA751 100%);
+}
+
+.text-gold-gradient {
+    background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Gradient Merah Kemerdekaan */
+.red-gradient {
+    background: linear-gradient(135deg, #E53935 0%, #E3525B 100%);
+}
